@@ -1,0 +1,18 @@
+.container{
+    margin: 0 auto;
+    width:85%;
+    display: flex;
+}
+.article{
+    padding:20px
+
+}
+.suvs{
+    background-color:  hsl(184, 100%, 22%)  
+}
+.luxury{
+    background-color:   hsl(179, 100%, 13%);
+}
+.sedans{
+    background-color: hsl(31, 77%, 52%)
+}
