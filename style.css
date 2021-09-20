@@ -1,18 +1,52 @@
+body{
+    color: white;
+    font-family:"lexend deca", serif;
+
+}
+h1{
+    text-transform: uppercase;
+    font-family: "Big Shoulders Display"
+}
+
 .container{
     margin: 0 auto;
-    width:85%;
-    display: flex;
+    
+    max-width: 375px;
 }
 .article{
-    padding:20px
+    padding:60px
 
 }
 .suvs{
-    background-color:  hsl(184, 100%, 22%)  
+    background-color:  hsl(184, 100%, 22%) ; 
 }
 .luxury{
     background-color:   hsl(179, 100%, 13%);
 }
 .sedans{
-    background-color: hsl(31, 77%, 52%)
+     background-color: hsl(31, 77%, 52%);
+}
+.btn{
+    padding: 18px 23px;
+    background-color: white;
+    border-radius: 12px;
+    margin-top: 60px;
+    display: inline-block;
+    text-decoration: none;
+}
+.btn-sedan{
+    color:hsl(31, 77%, 52%);
+}
+.btn-suv{
+    color:hsl(184, 100%, 22%) ;
+}
+.btn-luxury{
+    color:   hsl(179, 100%, 13%);
+}
+
+@media (min-width:600px) {
+ .container  {
+    display: flex;
+    max-width: 940px;
+ } 
 }
